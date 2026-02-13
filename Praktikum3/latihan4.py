@@ -43,4 +43,5 @@ for i in range(jumlahElemen2):
     ll.insert_at_end(int(input2[i]))
 ll2.display()
 print("Linked List Setelah Digabungkan:")
+
 ll.display()	
