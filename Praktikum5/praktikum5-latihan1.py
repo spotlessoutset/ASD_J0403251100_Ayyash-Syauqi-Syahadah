@@ -28,4 +28,5 @@ Diskusi dan jelaskan alur program serta base case dan recursive call.
 Alur: Pertama-tama kita harus mendefinisikan base case yaitu ketika nilai n bernilai 0.
 Lalu kita mengalikan a(basis) dengan fungsi pangkat() dengan n dikurangi 1 agar mencapai base case.
 Jadi, program ini adalah mengalikan a(basis) sebanyak n(pangkat)
+
 '''
