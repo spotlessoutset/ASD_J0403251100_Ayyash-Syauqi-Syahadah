@@ -1,0 +1,21 @@
+# ========================================================== 
+# Bubble Sort Ascending
+# ==========================================================
+# Nama  : Ayyash Syauqi Syahadah
+# NIM   : J0403251100
+# Kelas : TPL/A1
+# ========================================================== 
+ 
+def bubbleSortAscending(data):
+    for batas in range(len(data)-1,0,-1):
+        for i in range(batas):
+            if data[i]>data[i+1]:
+                # Tukar dua data bersebelahan yang urutannya salah
+                temp = data[i]
+                data[i] = data[i+1]
+                data[i+1] = temp
+data = [54,26,93,17,77,31,44,55,20]
+bubbleSortAscending(data)
+print(data)
+# Output
+# [17, 20, 26, 31, 44, 54, 55, 77, 93]
