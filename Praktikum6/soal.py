@@ -1,3 +1,11 @@
+# ========================================================== 
+# Soal Pak Budi
+# ==========================================================
+# Nama  : Ayyash Syauqi Syahadah
+# NIM   : J0403251100
+# Kelas : TPL/A1
+# ========================================================== 
+ 
 def bubbleSortDescending(data):
     for batas in range(len(data)-1,0,-1):
         for i in range(batas):
